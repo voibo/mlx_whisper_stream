@@ -1,0 +1,7 @@
+numpy
+torch
+torchaudio
+mlx-whisper
+silero-vad
+librosa
+soundfile
