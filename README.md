@@ -30,6 +30,10 @@ Real-time speech recognition tool optimized for macOS Apple Silicon, used in Voi
 git clone https://github.com/voibo/mlx_whisper_stream.git
 cd mlx_whisper_stream
 
+# Create and configure virtual environment for Voibo integration
+python3 -m venv venv
+source ./venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
 
